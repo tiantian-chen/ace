@@ -1,0 +1,37 @@
+baseURL: 
+languageCode: en-us
+DefaultContentLanguage: en
+title: funRiceGene
+theme: ace-documentation
+pygmentsCodeFences: yes
+pygmentsStyle: monokailight
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: no
+enableMissingTranslationPlaceholders: no
+googleAnalytics: ''
+params:
+  disableReadmoreNav: no
+  disableSearch: no
+  highlightClientSide: no
+  menushortcutsnewtab: yes
+  ordersectionsby: weight
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+menu:
+  shortcuts:
+    - name: 
+      url: 
+      weight: 1
+    - name: 
+      url:
+      weight: 2
+    - name: 
+      url: 
+      weight: 3
